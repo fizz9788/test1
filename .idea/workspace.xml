@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="29451765-94a9-4ed6-ace0-3498dde95d60" name="更改" comment="Merge remote-tracking branch 'origin/dev' into dev">
+      <change beforePath="$PROJECT_DIR$/pythonProject/system_wolin/wlstu_system.py" beforeDir="false" afterPath="$PROJECT_DIR$/pythonProject/system_wolin/wlstu_system.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" show_ignored="true">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="dev" />
+                    <option name="lastUsedInstant" value="1774332681" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1774325288" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="3AsiQzzNE3jz9w6SaOsa0jNXWmL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.0312作业.executor": "Run",
+    "Python.0312响应体.executor": "Run",
+    "Python.0313依赖注入.executor": "Run",
+    "Python.0313跨域.executor": "Run",
+    "Python.0313随堂.executor": "Run",
+    "Python.0313静态文件加载.executor": "Run",
+    "Python.1_orm入门.executor": "Run",
+    "Python.2_静态文件加载.executor": "Run",
+    "Python.4_分组操作.executor": "Run",
+    "Python.6_多表查询.executor": "Run",
+    "Python.8_md5.executor": "Run",
+    "Python.api (1).executor": "Run",
+    "Python.api.executor": "Run",
+    "Python.dao.executor": "Run",
+    "Python.day01.executor": "Run",
+    "Python.db_model.executor": "Run",
+    "Python.main (1).executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.models.executor": "Run",
+    "Python.reset_registry.executor": "Run",
+    "Python.scan.executor": "Run",
+    "Python.wlstu_system.executor": "Run",
+    "Python.大麦网抢票 (1).executor": "Run",
+    "Python.大麦网抢票(1).executor": "Run",
+    "Python.数据库ORM操作.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "dev",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/Windows/PycharmProjects/pythonProject/system_wolin",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Windows\PycharmProjects\pythonProject\system_wolin" />
+      <recent name="C:\Users\Windows\PycharmProjects\pythonProject\0313zuoye" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Windows\PycharmProjects\opencv" />
+      <recent name="C:\Users\Windows\PycharmProjects\pythonProject1" />
+      <recent name="C:\Users\Windows\PycharmProjects\pythonProject\system_wolin" />
+      <recent name="C:\Users\Windows\PycharmProjects" />
+      <recent name="C:\Users\Windows\PycharmProjects\pythonProject\wrok_0303" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.scan">
+    <configuration name="0313静态文件加载" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PycharmProjects" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pythonProject/FastAPI" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pythonProject/FastAPI/0313静态文件加载.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="api" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PycharmProjects" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pythonProject/system_wolin/multi_tables_query" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pythonProject/system_wolin/multi_tables_query/api.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="day01" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PycharmProjects" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/opencv" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/opencv/day01.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="scan" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PycharmProjects" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="D:/BaiduNetdiskDownload/opencv（python版）代码+资料/代码+资料/第十章：项目实战-文档扫描OCR识别/Scan" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="D:/BaiduNetdiskDownload/opencv（python版）代码+资料/代码+资料/第十章：项目实战-文档扫描OCR识别/Scan/scan.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="wlstu_system" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PycharmProjects" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pythonProject/system_wolin" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pythonProject/system_wolin/wlstu_system.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.scan" />
+        <item itemvalue="Python.wlstu_system" />
+        <item itemvalue="Python.api" />
+        <item itemvalue="Python.day01" />
+        <item itemvalue="Python.0313静态文件加载" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-PY-241.14494.241" />
+        <option value="bundled-python-sdk-0509580d9d50-28c9f5db9ffe-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.14494.241" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="29451765-94a9-4ed6-ace0-3498dde95d60" name="更改" comment="" />
+      <created>1773387666760</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1773387666760</updated>
+      <workItem from="1773387667834" duration="752000" />
+      <workItem from="1773388873694" duration="102810000" />
+      <workItem from="1773798653938" duration="6469000" />
+      <workItem from="1773824906688" duration="33800000" />
+      <workItem from="1774007694745" duration="14950000" />
+      <workItem from="1774315676435" duration="1638000" />
+      <workItem from="1774317413132" duration="648000" />
+      <workItem from="1774318074130" duration="13178000" />
+      <workItem from="1774339663189" duration="22327000" />
+    </task>
+    <task id="LOCAL-00001" summary="初始化仓库">
+      <option name="closed" value="true" />
+      <created>1774319916261</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1774319916261</updated>
+    </task>
+    <task id="LOCAL-00002" summary="初始化仓库">
+      <option name="closed" value="true" />
+      <created>1774320594640</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1774320594640</updated>
+    </task>
+    <task id="LOCAL-00003" summary="初始化仓库">
+      <option name="closed" value="true" />
+      <created>1774323788357</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1774323788357</updated>
+    </task>
+    <task id="LOCAL-00004" summary="初始化仓库">
+      <option name="closed" value="true" />
+      <created>1774323797062</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1774323797062</updated>
+    </task>
+    <task id="LOCAL-00005" summary="初始化仓库">
+      <option name="closed" value="true" />
+      <created>1774324409900</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1774324409900</updated>
+    </task>
+    <task id="LOCAL-00006" summary="初始化仓库">
+      <option name="closed" value="true" />
+      <created>1774324437416</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1774324437416</updated>
+    </task>
+    <task id="LOCAL-00007" summary="初始化仓库">
+      <option name="closed" value="true" />
+      <created>1774324891320</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1774324891320</updated>
+    </task>
+    <task id="LOCAL-00008" summary="初始化仓库">
+      <option name="closed" value="true" />
+      <created>1774326334628</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1774326334628</updated>
+    </task>
+    <task id="LOCAL-00009" summary="初始化仓库">
+      <option name="closed" value="true" />
+      <created>1774332879930</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1774332879930</updated>
+    </task>
+    <task id="LOCAL-00010" summary="初始化仓库">
+      <option name="closed" value="true" />
+      <created>1774335458060</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1774335458060</updated>
+    </task>
+    <task id="LOCAL-00011" summary="初始化仓库">
+      <option name="closed" value="true" />
+      <created>1774335482224</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1774335482224</updated>
+    </task>
+    <task id="LOCAL-00012" summary="初始化仓库">
+      <option name="closed" value="true" />
+      <created>1774355273799</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1774355273799</updated>
+    </task>
+    <task id="LOCAL-00013" summary="初始化仓库">
+      <option name="closed" value="true" />
+      <created>1774355308128</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1774355308128</updated>
+    </task>
+    <task id="LOCAL-00014" summary="初始化仓库">
+      <option name="closed" value="true" />
+      <created>1774359032754</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1774359032754</updated>
+    </task>
+    <task id="LOCAL-00015" summary="初始化仓库">
+      <option name="closed" value="true" />
+      <created>1774402829479</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1774402829479</updated>
+    </task>
+    <task id="LOCAL-00016" summary="初始化仓库">
+      <option name="closed" value="true" />
+      <created>1774402887180</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1774402887180</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Merge remote-tracking branch 'origin/dev' into dev">
+      <option name="closed" value="true" />
+      <created>1774403290683</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1774403290683</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName=".env" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="dev" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="初始化仓库" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/dev' into dev" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/dev' into dev" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/PycharmProjects$8_md5.coverage" NAME="8_md5 覆盖结果" MODIFIED="1773904436307" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonProject" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$2_.coverage" NAME="2_静态文件加载 覆盖结果" MODIFIED="1773389132938" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonProject" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$ORM.coverage" NAME="数据库ORM操作 覆盖结果" MODIFIED="1773475663905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonProject/0314" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$models.coverage" NAME="models 覆盖结果" MODIFIED="1773729585023" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonProject/system_wolin" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$0313.coverage" NAME="0313静态文件加载 覆盖结果" MODIFIED="1773817965799" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonProject/FastAPI" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$scan.coverage" NAME="scan 覆盖结果" MODIFIED="1774419230805" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/BaiduNetdiskDownload/opencv（python版）代码+资料/代码+资料/第十章：项目实战-文档扫描OCR识别/Scan" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$__1_.coverage" NAME="大麦网抢票 (1) 覆盖结果" MODIFIED="1773469473108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$4_.coverage" NAME="4_分组操作 覆盖结果" MODIFIED="1773472458493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonProject/0314" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$main.coverage" NAME="main 覆盖结果" MODIFIED="1773400351352" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonProject/FastAPI/ziluyou" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$_1_.coverage" NAME="大麦网抢票(1) 覆盖结果" MODIFIED="1773469023663" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Downloads" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$reset_registry.coverage" NAME="reset_registry 覆盖结果" MODIFIED="1773729589280" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonProject/system_wolin" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$6_.coverage" NAME="6_多表查询 覆盖结果" MODIFIED="1773481720814" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonProject/0314" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$day01.coverage" NAME="day01 覆盖结果" MODIFIED="1774063707389" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/opencv" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$api.coverage" NAME="api 覆盖结果" MODIFIED="1774344554494" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonProject/system_wolin/multi_tables_query" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$db_model.coverage" NAME="db_model 覆盖结果" MODIFIED="1773718169010" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonProject/system_wolin/student_info" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$main__1_.coverage" NAME="main (1) 覆盖结果" MODIFIED="1773453090996" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonProject/0313zuoye" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$1_orm.coverage" NAME="1_orm入门 覆盖结果" MODIFIED="1773456915338" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonProject/0314" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$api__1_.coverage" NAME="api (1) 覆盖结果" MODIFIED="1773732014211" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonProject/system_wolin/multi_tables_query" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$wlstu_system.coverage" NAME="wlstu_system 覆盖结果" MODIFIED="1774410205333" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonProject/system_wolin" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$dao.coverage" NAME="dao 覆盖结果" MODIFIED="1773643634853" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonProject/system_wolin/Employment" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$0312.coverage" NAME="0312响应体 覆盖结果" MODIFIED="1773911340852" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonProject/FastAPI" />
+  </component>
+</project>

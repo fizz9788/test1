@@ -1,0 +1,45 @@
+Index: 大麦网抢票(1).py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>\"\"\"\r\n知识点：\r\n    面向对象编程\r\n    selenium 操作浏览器\r\n    pickle 保存和读取Cookie实现免登陆\r\n    time 做延时操作\r\n    os 创建文件，判断文件是否存在\r\n\r\n第三方库：\r\n    selenium >>> pip install selenium\r\n\r\n开发环境：\r\n    版 本：anaconda（python3.8.8）\r\n    编辑器：pycharm\r\nhello\r\n\"\"\"\r\n\r\nimport os  # 创建文件夹, 文件是否存在\r\nimport time  # time 计时\r\nimport pickle  # 保存和读取cookie实现免登陆的一个工具\r\nfrom time import sleep\r\nfrom selenium import webdriver  # 操作浏览器的工具\r\nfrom selenium.webdriver.common.by import By\r\nfrom webdriver.chrome import ChromeDriverManager\r\nfrom selenium.webdriver.chrome.service import Service\r\nfrom selenium import webdriver\r\n\"\"\"\r\n一. 实现免登陆\r\n二. 抢票并且下单\r\n\"\"\"\r\n\r\n# 大麦网主页\r\ndamai_url = 'https://www.damai.cn/'\r\n# 登录\r\nlogin_url = 'https://passport.damai.cn/login?ru=https%3A%2F%2Fwww.damai.cn%2F'\r\n# 抢票目标页\r\ntarget_url = 'https://detail.damai.cn/item.htm?spm=a2oeg.search_category.0.0.749a2ecbX3EHsb&id=699777108426&clicktitle=KY%E4%B9%90%E5%9B%A2%E2%80%9C%E5%85%89%E8%BE%89%E5%B2%81%E6%9C%88%E2%80%9D%E7%BA%AA%E5%BF%B5%E9%BB%84%E5%AE%B6%E9%A9%B9%C2%B7%E8%87%B4%E6%95%ACBEYOND%E5%9B%9B%E5%8D%81%E5%91%A8%E5%B9%B4%E5%B7%A1%E5%9B%9E%E8%A7%86%E5%90%AC%E6%BC%94%E5%94%B1%E4%BC%9A%E2%80%94%E2%80%94(%E4%B8%8A%E6%B5%B7%E7%AB%99%EF%BC%89%E9%BB%84%E8%B4%AF%E4%B8%AD%E5%8A%9B%E8%8D%90%E7%9A%84%E5%A3%B0%E9%9F%B3'\r\n\r\n# class Concert:\r\nclass Concert:\r\n    # 初始化加载\r\n    def __init__(self):\r\n        self.status = 0  # 状态, 表示当前操作执行到了哪个步骤\r\n        self.login_method = 1  # {0:模拟登录, 1:cookie登录}自行选择登录的方式\r\n        service = Service(ChromeDriverManager().install())  # 自动下载并配置驱动\r\n        self.driver = webdriver.Chrome(service=service) # 当前浏览器驱动对象\r\n\r\n    # cookies: 登录网站时出现的 记录用户信息用的\r\n    def set_cookies(self):\r\n        \"\"\"cookies: 登录网站时出现的 记录用户信息用的\"\"\"\r\n        self.driver.get(damai_url)\r\n        print('###请点击登录###')\r\n        # 我没有点击登录,就会一直延时在首页, 不会进行跳转\r\n        while self.driver.title.find('大麦网-全球演出赛事官方购票平台') != -1:\r\n            sleep(1)\r\n        print('###请扫码登录###')\r\n        # 没有登录成功\r\n        while self.driver.title != '大麦网-全球演出赛事官方购票平台-100%正品、先付先抢、在线选座！':\r\n            sleep(1)\r\n        print('###扫码成功###')\r\n        # get_cookies: driver里面的方法\r\n        pickle.dump(self.driver.get_cookies(), open('cookies.pkl', 'wb'))\r\n        print('###cookie保存成功###')\r\n        self.driver.get(target_url)\r\n\r\n    # 假如说我现在本地有 cookies.pkl 那么 直接获取\r\n    def get_cookie(self):\r\n        \"\"\"假如说我现在本地有 cookies.pkl 那么 直接获取\"\"\"\r\n        cookies = pickle.load(open('cookies.pkl', 'rb'))\r\n        for cookie in cookies:\r\n            cookie_dict = {\r\n                'domain': '.damai.cn',  # 必须要有的, 否则就是假登录\r\n                'name': cookie.get('name'),\r\n                'value': cookie.get('value')\r\n            }\r\n            self.driver.add_cookie(cookie_dict)\r\n        print('###载入cookie###')\r\n\r\n    def login(self):\r\n        \"\"\"登录\"\"\"\r\n        if self.login_method == 0:\r\n            self.driver.get(login_url)\r\n            print('###开始登录###')\r\n        elif self.login_method == 1:\r\n            # 创建文件夹, 文件是否存在\r\n            if not os.path.exists('cookies.pkl'):\r\n                self.set_cookies()  # 没有文件的情况下, 登录一下\r\n            else:\r\n                self.driver.get(target_url)  # 跳转到抢票页\r\n                self.get_cookie()  # 并且登录\r\n\r\n    def enter_concert(self):\r\n        \"\"\"打开浏览器\"\"\"\r\n        print('###打开浏览器,进入大麦网###')\r\n        # 调用登录\r\n        self.login()  # 先登录再说\r\n        self.driver.refresh()  # 刷新页面\r\n        self.status = 2  # 登录成功标识\r\n        print('###登录成功###')\r\n        # 处理弹窗\r\n        if self.isElementExist('/html/body/div[2]/div[2]/div/div/div[3]/div[2]'):\r\n            self.driver.find_element(By.XPATH, '/html/body/div[2]/div[2]/div/div/div[3]/div[2]').click()\r\n\r\n    # 二. 抢票并且下单\r\n    def choose_ticket(self):\r\n        \"\"\"选票操作\"\"\"\r\n        if self.status == 2:\r\n            print('=' * 30)\r\n            print('###开始进行日期及票价选择###')\r\n            while self.driver.title.find(\"确认订单\") == -1:\r\n                try:\r\n                    buybutton = self.driver.find_element(By.CLASS_NAME, 'buybtn').text\r\n                    if buybutton == '提交缺货登记':\r\n                        self.status = 2  # 没有进行更改操作\r\n                        self.driver.get(target_url)  # 刷新页面 继续执行操作\r\n                    elif buybutton == '立即预定':\r\n                        # 点击立即预定\r\n                        self.driver.find_element('buybtn').click()\r\n                        self.status = 3\r\n                    elif buybutton == '立即购买':\r\n                        self.driver.find_element(By.CLASS_NAME, 'buybtn').click()\r\n                        self.status = 4\r\n                    elif buybutton == '选座购买':\r\n                        self.driver.find_element(By.CLASS_NAME, 'buybtn').click()\r\n                        self.status = 5\r\n                except:\r\n                    print('###没有跳转到订单结算界面###')\r\n                title = self.driver.title\r\n                if title == '选座购买':\r\n                    # 选座购买的逻辑\r\n                    self.choice_seats()\r\n                elif title == '确认订单':\r\n                    # 实现下单的逻辑\r\n                    while True:\r\n                        # 如果标题为确认订单\r\n                        print('正在加载.......')\r\n                        # 如果当前购票人信息存在 就点击\r\n                        if self.isElementExist('//*[@id=\"container\"]/div/div[9]/button'):\r\n                            # 下单操作\r\n                            self.check_order()\r\n                            break\r\n\r\n    def choice_seats(self):\r\n        \"\"\"选择座位\"\"\"\r\n        while self.driver.title == '选座购买':\r\n            while self.isElementExist('//*[@id=\"app\"]/div[2]/div[2]/div[1]/div[2]/img'):\r\n                print('请快速选择你想要的座位!!!')\r\n            while self.isElementExist('//*[@id=\"app\"]/div[2]/div[2]/div[2]/div'):\r\n                self.driver.find_element(By.XPATH, '//*[@id=\"app\"]/div[2]/div[2]/div[2]/button').click()\r\n\r\n    def check_order(self):\r\n        \"\"\"下单操作\"\"\"\r\n        if self.status in [3, 4, 5]:\r\n            print('###开始确认订单###')\r\n            time.sleep(1)\r\n            try:\r\n                # 默认选第一个购票人信息\r\n                self.driver.find_element(By.XPATH, '//*[@id=\"container\"]/div/div[2]/div[2]/div[1]/div/label').click()\r\n            except Exception as e:\r\n                print('###购票人信息选中失败, 自行查看元素位置###')\r\n                print(e)\r\n            # 最后一步提交订单\r\n            time.sleep(0.5)  # 太快了不好, 影响加载 导致按钮点击无效\r\n            self.driver.find_element(By.XPATH, '//*[@id=\"container\"]/div/div[9]/button').click()\r\n            time.sleep(20)\r\n\r\n    def isElementExist(self, element):\r\n        \"\"\"判断元素是否存在\"\"\"\r\n        flag = True\r\n        browser = self.driver\r\n        try:\r\n            browser.find_element(By.XPATH, element)\r\n            return flag\r\n        except:\r\n            flag = False\r\n            return flag\r\n\r\n    def finish(self):\r\n        \"\"\"抢票完成, 退出\"\"\"\r\n        self.driver.quit()\r\n\r\n\r\nif __name__ == '__main__':\r\n    con = Concert()\r\n    try:\r\n        con.enter_concert()  # 打开浏览器\r\n        con.choose_ticket()  # 选择座位\r\n    except Exception as e:\r\n        print(e)\r\n        con.finish()\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/大麦网抢票(1).py b/大麦网抢票(1).py
+--- a/大麦网抢票(1).py	(revision 1582df09e04353e7966ec8bf0187fb3593ae5bc3)
++++ b/大麦网抢票(1).py	(date 1774324228644)
+@@ -12,7 +12,7 @@
+ 开发环境：
+     版 本：anaconda（python3.8.8）
+     编辑器：pycharm
+-hello
++hello123123132213
+ """
+ 
+ import os  # 创建文件夹, 文件是否存在
+Index: .idea/git_toolbox_prj.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/git_toolbox_prj.xml b/.idea/git_toolbox_prj.xml
+new file mode 100644
+--- /dev/null	(date 1774323811941)
++++ b/.idea/git_toolbox_prj.xml	(date 1774323811941)
+@@ -0,0 +1,15 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="GitToolBoxProjectSettings">
++    <option name="commitMessageIssueKeyValidationOverride">
++      <BoolValueOverride>
++        <option name="enabled" value="true" />
++      </BoolValueOverride>
++    </option>
++    <option name="commitMessageValidationEnabledOverride">
++      <BoolValueOverride>
++        <option name="enabled" value="true" />
++      </BoolValueOverride>
++    </option>
++  </component>
++</project>
+\ No newline at end of file
